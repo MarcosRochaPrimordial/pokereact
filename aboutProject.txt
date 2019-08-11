@@ -1,0 +1,8 @@
+Small project only to do anything with react and node-typescript
+
+- a list with pokemons.
+- when click on any row, shows up a card with the details of clicked pokemon.
+
+Lib view: React
+Lib css: ...
+backend: ts node - maybe rxjs
