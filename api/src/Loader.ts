@@ -1,7 +1,10 @@
 import { LoadApp } from 'decorated-router';
+import { PokemonController } from './controllers/PokemonController';
 
 @LoadApp({
-    controllers: [],
+    controllers: [
+        PokemonController
+    ],
     serverSets: {
         door: 3000,
         methods: 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
